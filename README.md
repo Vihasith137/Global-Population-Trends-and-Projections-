@@ -30,14 +30,7 @@ This section can be expanded to include:
 * **Limitations:**  Acknowledge any limitations of the data or analysis.
 * **Future Work:**  Suggest potential future research or extensions of the project.
 
-## How to Use 
-
-If you have interactive Power BI visualizations or other components users can interact with, provide instructions here. This might include:
-
-* Downloading the Power BI file.
-* Accessing an online dashboard.
-*  Required software or tools.
-##Contents
+## Contents
 1 Introduction	5
 1.1 Background	6
 1.2 Problem Statement	7
