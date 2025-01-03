@@ -1,29 +1,42 @@
+# Global Population Trends and Projections (1980-2050)
+
+**Author:** Vihasith Rasala
+
+**Submitted to:** Professor Sunkanmi Emanuel Oluwadare
+
+## Abstract
+
+This project analyzes global population statistics and projections for the year 2024, focusing on demographic transitions worldwide. The research delves into population dynamics, particularly population density growth and its correlation with economic factors.
+
+Leveraging a comprehensive dataset and utilizing Power BI for visualization, the project enables interactive exploration of population metrics. Key findings include:
+
+* Over 50% of the global population resides in Asia, with India and China accounting for a significant portion.
+* Notable year-on-year population growth is observed in India, Nigeria, Macau, and Singapore.
+* Population growth and GDP growth exhibit distinct trends, particularly in Pakistan.
+
+This analysis provides valuable insights into demographic shifts and their potential implications for policy-making and economic planning.
+
+**Keywords:** Population, Demographics, Data Visualization, Power BI, Economic Implications
 
 
+## Project Details
 
+This section can be expanded to include:
 
+* **Data Sources:**  Specify the datasets used in the project. Include links or references if possible.
+* **Methodology:** Describe the methods used for data analysis and visualization.
+* **Visualizations:** Briefly describe the types of visualizations created in Power BI (e.g., maps, charts, dashboards).
+* **Key Insights:**  Expand on the main findings of the analysis.
+* **Limitations:**  Acknowledge any limitations of the data or analysis.
+* **Future Work:**  Suggest potential future research or extensions of the project.
 
+## How to Use 
 
+If you have interactive Power BI visualizations or other components users can interact with, provide instructions here. This might include:
 
-###IT PROJECT
-INITIAL DRAFT
-“Global Population Trends and Projections (1980-2050)”
-	Vihasith Rasala	
-
-
-
-
-
-
-
-
-
-
-#Submitted to:
-Professor Sunkanmi Emanuel Oluwadare 
-###Abstract
-In this research, global population statistics and projections for the year 2024 is selected along with demographic transition of nations worldwide. The subject of the analysis is population dynamics, with special attention paid to the main indicators of population density growth and their relationship with economic factors. The research made use of data from a wide dataset and used Power Bi to visualize it and encourage interactive exploration of the population metrics. It finds that over half the world's population lives in Asia, India and China each adding up to 40%. It notched particularly strong year-on-year growth rates in India and Nigeria, as well as in dense populations including Macau and Singapore. The analysis underscores the fact that population growth is quite distinct from GDP growth, more so in the case of Pakistan. The findings help understand the nature of the demographic shifts and their possible implications for policy making and economic planning. 
-Keywords: Population, Demographics, Data Visualization, Power BI and economic implications. 
+* Downloading the Power BI file.
+* Accessing an online dashboard.
+*  Required software or tools.
 ##Contents
 1 Introduction	5
 1.1 Background	6
