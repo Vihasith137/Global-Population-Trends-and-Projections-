@@ -188,26 +188,42 @@ The dataset 2024Populations.csv (31.12 kB) Link:- https://www.kaggle.com/code/fa
 was acquired and painstakingly cleaned (using the Power Query editor Power BI features) in the data preprocessing stage.
  
 
-
+Figure 1 Data import and preprocessing
 <p align="center">
   <img src="Picture1.png" alt="Figure 1 Data import and preprocessing">
 </p>
 Error detection and removal on the first step were made to make sure the dataset was alright, and the first row was then made to be the header which labels each column correctly. Subsequently, data types were changed such that those meet their respective columns’ content; this improved data consistency and better verified numerical readings for analytical calculations. 
  
 Figure 2 Changing Data type
+<p align="center">
+  <img src="Picture2.png" alt="Changing Data type">
+</p>
  
 Figure 3 Removing duplicates
+<p align="center">
+  <img src="Picture3.png" alt="Removing duplicates">
+</p>
 The dataset was further refined by identifying and removing duplicate entries so that it didn’t end up with skewing results in our analysis. The cleaning of these techniques was used to remove redundancy and have unique records only. Moreover, the data was handled with appropriate imputation techniques or removal, to present a complete and accurate data representation. In addition, feature engineering was employed, in which new columns were created or transformed in order to improve analytical capabilities. For example, categorical population densities, growth rates and changes in population over certain periods were generated as new features. As a result, one could have a more nuanced view of the data and moreover, during the analysis, more insights. The goal of the preprocessing steps was to improve the quality of the dataset, so it would be of usable format and lead to trustworthy results when studying trends around the world for population.
-3.3 Data Visualization
+
+## 3.3 Data Visualization
  	In this project, structured across many pages, each present key insights such as global population trends and projections.
  
 Figure 4 Population classification using bar chart and map
+<p align="center">
+  <img src="Picture4.png" alt="Population classification using bar chart and map">
+</p>
 Figure 4 features a bar chart showing population numbers for 2024 by country, and a clear comparison of population numbers between countries. It also includes a bubble map chart that displays which countries have the most population and the size of the bubble corresponds to population magnitude. A dropdown menu is included to further users’ interaction where users can filter the data by whether countries are UN members or not. In addition, two informative cards illustrate the population growth separately for the UN members and non-UN members so one can easily understand population distribution on UN members as well as non-UN members. 
  
 Figure 5 bar charts showing country wise growth
+<p align="center">
+  <img src="Picture5.png" alt="bar charts showing country wise growth">
+</p>
 Figure 5, there are two bar charts showing growth metrics for 2024. The first chart shows the growth rate by country from 2023 to 2024, making it easy to see just how many people are growing compared to one another. The second bar chart shows YoY change in the absolute numbers by country, providing real numbers shifts in total population increases or decreases. Both percentage growth and raw population change in plain sight with this layout so users can easily see what one is talking about.
  
 Figure 6 Bubble map showing population density
+<p align="center">
+  <img src="Picture6.png" alt="Bubble map showing population density">
+</p>
 Figure 6. bubble map chart shows country population density in 2024. Using bubble sizes to illustrate density of population and given area on land, this visualization enables users to quickly distinguish areas with high, and low, densities of population within land area globally. A world map is used displaying population distribution and knitting urbanization and sparsity patterns with clearly discernible geographical focus. Through these elegantly constructed visualizations, the project makes available complex population data and through this fertile visualization landscape enables the clear and intuitive understanding of global populations trend, insight, and disparity. Visualizations are designed to properly facilitate user interaction and engagement to allow stakeholders to obtain meaningful information to arbitrate decision making processes regarding population dynamics.
  
 # 4 Results and Discussion
@@ -215,13 +231,22 @@ Figure 6. bubble map chart shows country population density in 2024. Using bubbl
 By 2024, the global population tops 8 billion and more than half of the world’s people live in the Asian continent. Around 40 per cent of this population is concentrated in just two countries, India and China. This report presents data that can be dynamically cross filtered so that users can explore how population is distributed across countries based on their need.
  
 Figure 7 Worldwide population overview
+<p align="center">
+  <img src="Picture7.png" alt="Worldwide population overview">
+</p>
 In terms of percentage change in population, it is seen that those countries, for example, Ethiopia, Nigeria, Pakistan, Bangladesh, and India have had very high percentage growth from 2023 to 2024. India outpaced the pack to take the top spot, while Nigeria was with a 2.5x increase in population year on year.
  
 Figure 8 YOY Growth rate and change
+<p align="center">
+  <img src="Picture8.png" alt="YOY Growth rate and change">
+</p>
 India also has the most growth in absolute terms between 2023 and 2024 of any country, suggesting its increasing demographic weight compared to the rest of the world.
 Additionally, in terms of population density, the countries in Macau, Hong Kong, Singapore, Gibraltar and Monaco were found to be the most densely populated parts of the world. The population densities of these areas are about 5,000 – 22,000 people per square kilometer, which, considering it, are amongst the most crowded spots of the planet. High population concentrations are found despite their relatively small geographical area.
  
 Figure 9 Population density by country
+<p align="center">
+  <img src="Picture9.png" alt="Population density by country">
+</p>
 Oddly, the rate of economic output varied vastly from population growth. Most specifically, Pakistan’s GDP is only one tenth of India’s, and that underlines the obstacles that rapid population growth creates when it comes to proportional economic expansion. That suggests that development trends are far better analyzed through both demographic and economic factors.
 
 ## 4.1 Discussion
