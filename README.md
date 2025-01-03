@@ -206,7 +206,8 @@ Figure 3 Removing duplicates
 The dataset was further refined by identifying and removing duplicate entries so that it didn’t end up with skewing results in our analysis. The cleaning of these techniques was used to remove redundancy and have unique records only. Moreover, the data was handled with appropriate imputation techniques or removal, to present a complete and accurate data representation. In addition, feature engineering was employed, in which new columns were created or transformed in order to improve analytical capabilities. For example, categorical population densities, growth rates and changes in population over certain periods were generated as new features. As a result, one could have a more nuanced view of the data and moreover, during the analysis, more insights. The goal of the preprocessing steps was to improve the quality of the dataset, so it would be of usable format and lead to trustworthy results when studying trends around the world for population.
 
 ## 3.3 Data Visualization
- 	In this project, structured across many pages, each present key insights such as global population trends and projections.
+
+In this project, structured across many pages, each present key insights such as global population trends and projections.
  
 Figure 4 Population classification using bar chart and map
 <p align="center">
