@@ -187,79 +187,127 @@ For this project Dataset was found on a Kaggle repository titled Global Populati
 The dataset 2024Populations.csv (31.12 kB) Link:- https://www.kaggle.com/code/fahmidachowdhury/exploring-2024-population-projections/input
 was acquired and painstakingly cleaned (using the Power Query editor Power BI features) in the data preprocessing stage.
  
+
 Figure 1 Data import and preprocessing
+<p align="center">
+  <img src="Picture1.png" alt="Figure 1 Data import and preprocessing">
+</p>
 Error detection and removal on the first step were made to make sure the dataset was alright, and the first row was then made to be the header which labels each column correctly. Subsequently, data types were changed such that those meet their respective columns’ content; this improved data consistency and better verified numerical readings for analytical calculations. 
  
 Figure 2 Changing Data type
+<p align="center">
+  <img src="Picture2.png" alt="Changing Data type">
+</p>
  
 Figure 3 Removing duplicates
+<p align="center">
+  <img src="Picture3.png" alt="Removing duplicates">
+</p>
 The dataset was further refined by identifying and removing duplicate entries so that it didn’t end up with skewing results in our analysis. The cleaning of these techniques was used to remove redundancy and have unique records only. Moreover, the data was handled with appropriate imputation techniques or removal, to present a complete and accurate data representation. In addition, feature engineering was employed, in which new columns were created or transformed in order to improve analytical capabilities. For example, categorical population densities, growth rates and changes in population over certain periods were generated as new features. As a result, one could have a more nuanced view of the data and moreover, during the analysis, more insights. The goal of the preprocessing steps was to improve the quality of the dataset, so it would be of usable format and lead to trustworthy results when studying trends around the world for population.
-3.3 Data Visualization
- 	In this project, structured across many pages, each present key insights such as global population trends and projections.
+
+## 3.3 Data Visualization
+
+In this project, structured across many pages, each present key insights such as global population trends and projections.
  
 Figure 4 Population classification using bar chart and map
+<p align="center">
+  <img src="Picture4.png" alt="Population classification using bar chart and map">
+</p>
 Figure 4 features a bar chart showing population numbers for 2024 by country, and a clear comparison of population numbers between countries. It also includes a bubble map chart that displays which countries have the most population and the size of the bubble corresponds to population magnitude. A dropdown menu is included to further users’ interaction where users can filter the data by whether countries are UN members or not. In addition, two informative cards illustrate the population growth separately for the UN members and non-UN members so one can easily understand population distribution on UN members as well as non-UN members. 
  
 Figure 5 bar charts showing country wise growth
+<p align="center">
+  <img src="Picture5.png" alt="bar charts showing country wise growth">
+</p>
 Figure 5, there are two bar charts showing growth metrics for 2024. The first chart shows the growth rate by country from 2023 to 2024, making it easy to see just how many people are growing compared to one another. The second bar chart shows YoY change in the absolute numbers by country, providing real numbers shifts in total population increases or decreases. Both percentage growth and raw population change in plain sight with this layout so users can easily see what one is talking about.
  
 Figure 6 Bubble map showing population density
+<p align="center">
+  <img src="Picture6.png" alt="Bubble map showing population density">
+</p>
 Figure 6. bubble map chart shows country population density in 2024. Using bubble sizes to illustrate density of population and given area on land, this visualization enables users to quickly distinguish areas with high, and low, densities of population within land area globally. A world map is used displaying population distribution and knitting urbanization and sparsity patterns with clearly discernible geographical focus. Through these elegantly constructed visualizations, the project makes available complex population data and through this fertile visualization landscape enables the clear and intuitive understanding of global populations trend, insight, and disparity. Visualizations are designed to properly facilitate user interaction and engagement to allow stakeholders to obtain meaningful information to arbitrate decision making processes regarding population dynamics.
  
 # 4 Results and Discussion
+
 By 2024, the global population tops 8 billion and more than half of the world’s people live in the Asian continent. Around 40 per cent of this population is concentrated in just two countries, India and China. This report presents data that can be dynamically cross filtered so that users can explore how population is distributed across countries based on their need.
  
 Figure 7 Worldwide population overview
+<p align="center">
+  <img src="Picture7.png" alt="Worldwide population overview">
+</p>
 In terms of percentage change in population, it is seen that those countries, for example, Ethiopia, Nigeria, Pakistan, Bangladesh, and India have had very high percentage growth from 2023 to 2024. India outpaced the pack to take the top spot, while Nigeria was with a 2.5x increase in population year on year.
  
 Figure 8 YOY Growth rate and change
+<p align="center">
+  <img src="Picture8.png" alt="YOY Growth rate and change">
+</p>
 India also has the most growth in absolute terms between 2023 and 2024 of any country, suggesting its increasing demographic weight compared to the rest of the world.
 Additionally, in terms of population density, the countries in Macau, Hong Kong, Singapore, Gibraltar and Monaco were found to be the most densely populated parts of the world. The population densities of these areas are about 5,000 – 22,000 people per square kilometer, which, considering it, are amongst the most crowded spots of the planet. High population concentrations are found despite their relatively small geographical area.
  
 Figure 9 Population density by country
+<p align="center">
+  <img src="Picture9.png" alt="Population density by country">
+</p>
 Oddly, the rate of economic output varied vastly from population growth. Most specifically, Pakistan’s GDP is only one tenth of India’s, and that underlines the obstacles that rapid population growth creates when it comes to proportional economic expansion. That suggests that development trends are far better analyzed through both demographic and economic factors.
-4.1 Discussion
+
+## 4.1 Discussion
+
 By 2024, the world population will reach roughly 8 billion, half of them will live in Asia. Moreover, given the world’s population comprises around 40% of India and China, it is no surprise that these countries are a highly useful demographic in terms of their size, making up 40% of all people in the world (United Nations, 2023). This composition syncs with past research which highlights Asia’s sweeps crosswise over the worldwide populace reference points (World Bank, 2023). Being able to dynamically cross filter the population report by country adds to user engagement and allows for more specific audience profiling. This is particularly useful for policymakers and researchers whose need is for insights that are tailored to specific demographic questions.
+
 Ethiopia, Nigeria, Pakistan, Bangladesh, and India are countries with high population growth relative to 2023. It is consistent with what recent demographic studies have shown, about these nations being among the key players in future population trends (Smith et al., 2022). On that note, India's growth percentage is also big in numbers, as it will outpace its earlier records. Looking at the case of Nigeria, population challenges need to be urgently addressed in rapidly growing regions with a growth rate of two and a half times that of India (Jones, 2023). With such trends, such growth calls for targeted policies to mitigate the impacts of such growth: resource allocation, urban planning, and education.
+
 The analysis also shows that the most populated regions in the world (in terms of population densities) are Macau, Hong Kong, Singapore, Gibraltar and Monaco, with densities ranging from 5,000 to 22,000 inhabitants per square kilometer. That this statistic in fact confirms that previous studies have shown (OECD, 2023) that there are more and more hotspots of high population density in urban areas. It is therefore important for urban planners to develop strategies to support population growth while minimizing the impact on such concentrations of people from the socio-economic level like shortage of houses and increased competition for resource areas.	
+
 On the other hand, a huge disparity is observed when Pakistan’s GDP is compared to India’s GDP, since a Pakistan has a GDP 10th of India. The discrepancy also highlights that Pakistan bears socio economic problems, as it aims to heavily deal with its rapidly increasing population. According to prior research, countries with higher GDP tend to generate more favorable outcomes with regards to resource distribution and public welfare (IMF, 2023). At a time when India is increasingly realizing its economic potential, Pakistan must draw up plans to enhance its economic conditions for meeting the requirements of its growing population.
+
 This report’s findings are the most important contribution for understanding global population trends, but it has several limitations to note. The accuracy of reported figures is contingent on the mechanisms and definitions of population employed in the dataset and the methods by which it is collected. The dataset used for this analysis is thus the first contingent on the governmental data collection methods. There may be discrepancies in the way countries report their demographic data, and any chances of misinterpretation.
+
 In addition, the report mostly used historical data and forecasting, which do not include the possibility of any mighty factors like epidemics, natural catastrophes, or geopolitical issues which can basically change the whole dynamics of population (WHO, 2023). Take, for example, the COVID 19 pandemic that brought dramatic changes in populations' trends where some regions have fallen prey to the health crisis and economic instability.
-
-
-
 
  
 # 5 Recommendations, Conclusion, Limitations and Future work.
+
 Finally, this research demonstrates a comprehensive analysis of the population trends in GLOBE 2024, including demography patterns and consequences for economic and social development. According to these findings, the approximate 8 billion is the world's population and more than half is found in Asia, where Asian countries will play a crucial role in the fate of the world (United Nations, 2023). India and China together take up 40% of the population of the world, making relevant policies for targeting these challenges even more pressing.
+
 The analysis indicated that there is very good growth rate occurring in countries like Ethiopia, Nigeria, Pakistan, and Bangladesh; therefore, there is an urgency for the interventions of the policies in order to sustainably manage development and allocation of resources (Smith et al., 2022). According to the data, Nigeria’s growth rate is at 2.5 times higher than that of India, with great potential socioeconomics implications of rapid population increase, therefore this requires attention (Jones, 2023). With this, disparities in GDP seen between Pakistan and India highlight the matter that is of carrying out economic stability in a population growth scenario. Given the GDP for Pakistan is only 1/10 of India’s, strategies on how to make economies more resilient and so public welfare for increasing population needs to be addressed (IMF, 2023).
+
 Several recommendations based on these findings follow. First, governments of such rapidly growing nations must pay for comprehensive family planning programs based on education and healthcare. Providing knowledge and resources that empower individuals, most people, including women, to make informed reproductive choices can very much minimize the stress posed by high population growth (WHO, 2023). In addition, policymakers should put more efforts into developing and urban planning infrastructure accommodating the growing urban population in densely populated countries, for example such as Macau, Hong Kong, Singapore. Urban growth needs to be done in a sustainable manner to achieve sustainable development strategies without compounding to the lives of the residents and the environment.
+
 Also, improvement in educational systems in this region is very important for the advancement of the economic system. It is observed that countries with much GDPs are having much better public welfare outcomes and they are associated with education level (OECD, 2023). This underlines the need to invest in education, especially science, technology, engineering and mathematics (STEM), which should lead to better job opportunities and a brighter economic future and thus to a more sustainable population growth.
+
 Some of these limitations lead to their inherent complexity, as population dynamics consider a plethora of intervening factors, including migration patterns, birth rates, and indeed death rates. This report covers the entire picture, but it might not put the specifics of all these interactions in a nutshell. The interplay of economic factors, healthcare access and other social policies on population changes is only examined in future research using a less granular approach. Furthermore, economic data analysis has its own difficulties. The report describes GDP disparities, but does not probe further into the wider economic landscape including wealth distribution in those countries and the impact of policy in reducing poverty. The results could be further analyzed with more details on how population growth affects economic development as well as vice versa.
+
 In addition, as the findings in this report have shown, the population dynamics documented in this report are important trends at both a global scale and in Asia, in particular India and China. Countries like Nigeria and Pakistan are growing, a need to be responded with immediate policy to manage implications of these demographic shifts. The limitations mentioned, however, caution against reading too much from the data and moving to conclusions. To improve the understanding of the complexities behind population trends, as well as their socio-economic implications, future research must move beyond the limits set by the analysis presented. With the use of user-friendly tools such as Power BI for analysis and visualization, researchers can enable an improved engagement and accessibility of demographic insights to improve decision making within different sectors.
+
 Future research should explore further the complexity of population dynamics, in the joint influence of socio-economic factors, migration patterns and environmental changes. Longitudinal studies on these variables could reveal important changes in the relationship among demographic currents and economic stability and social structures. Furthermore, qualitative research methods such as interviews and case studies could further enhance our understanding of how the residents are coping with population change.
+
 An open area for further work is to make use of these advanced data visualization tools such as Power BI, to explore population trends in real time itself. Such tools can enhance the ability to perform more interactive patterns of analysis that let those engaging in the policy and research process perform more rapid impact assessments of interventions. Additionally, it should be possible to improve predictive modelling capabilities through the integration of machine learning algorithms to derive a deeper understanding of successive field demographic scenarios, as well as their implications (Patel et al., 2024).
+
 Furthermore, an examination of the effects of global events, including the COVID-19 pandemic, on population dynamics and socio-economic conditions will also serve as a good ground for future research. How such events influence the demographic trends will need to be understood to respond to future challenges in a resilient manner.
+
 This research concludes with the call to action of global population growth: that of international cooperation. Countries need to share the best practices and resources in order to implement effective population management strategies. Knowledge sharing initiatives, joint research projects, and joint mechanisms of international funding to support population related programs in the areas of developing regions are possible areas of collaborative effort.
+
 Overall, this study allows us to gain insights from the various complexities it brings to the table and the need for proactive and informed policy making. Governments can better weather the demographic shifts of the future by prioritizing sustainable development, education and infrastructure improvements. Here are some of the recommendations which are given herein as a roadmap for policymakers, researchers, and stakeholders, as well as the vast consequences of population growth for global society.
  
-# References
-Falcon, W. P., Naylor, R. L., & Shankar, N. D. (2022). Rethinking Global Food Demand for 2050. Population and Development Review, 48(4). https://doi.org/10.1111/padr.12508
-Wellmann, T., Schug, F., Haase, D., Pflugmacher, D., & van der Linden, S. (2020). Green growth? On the relation between population density, land use and vegetation cover fractions in a city using a 30-years Landsat time series. Landscape and Urban Planning, 202, 103857. https://doi.org/10.1016/j.landurbplan.2020.103857
-Hanberry, B. B. (2022). Global population densities, climate change, and the maximum monthly temperature threshold as a potential tipping point for high urban densities. Ecological Indicators, 135, 108512. https://doi.org/10.1016/j.ecolind.2021.108512
-Chen, J., Wang, B., Huang, S., & Song, M. (2020). The influence of increased population density in China on air pollution. Science of the Total Environment, 735, 139456. https://doi.org/10.1016/j.scitotenv.2020.139456
-Hanberry, B. B. (2022). Imposing consistent global definitions of urban populations with gridded population density models: Irreconcilable differences at the national scale. Landscape and Urban Planning, 226, 104493. https://doi.org/10.1016/j.landurbplan.2022.104493
-Carozzi, F., Provenzano, S., & Roth, S. (2020). Urban density and Covid-19 - LSE Research Online. Lse.ac.uk. http://eprints.lse.ac.uk/108484/1/dp1711.pdf
-Sénit, C.-A. (2019). Leaving no one behind? The influence of civil society participation on the Sustainable Development Goals. Environment and Planning C: Politics and Space, 38(4), 239965441988433. https://doi.org/10.1177/2399654419884330
-Thew, H., Middlemiss, L., & Paavola, J. (2020). “Youth is not a political position”: Exploring justice claims-making in the UN Climate Change Negotiations. Global Environmental Change, 61, 102036. https://doi.org/10.1016/j.gloenvcha.2020.102036
-McMellon, C., & Tisdall, E. K. M. (2020). Children and Young People’s Participation Rights: Looking Backwards and Moving Forwards. The International Journal of Children’s Rights, 28(1), 157–182. https://doi.org/10.1163/15718182-02801002
-Gleave, M. B., & White, H. P. (2023). Population density and agricultural systems in West Africa. Environment and Land Use in Africa, 273–300. https://doi.org/10.4324/9781003383925-12
-Rahman, M. M., Saidi, K., & Mbarek, M. B. (2020). Economic growth in South Asia: the role of CO2 emissions, population density and trade openness. Heliyon, 6(5), e03903. https://doi.org/10.1016/j.heliyon.2020.e03903
-Ahmed, Z., Zhang, B., & Cary, M. (2021). Linking economic globalization, economic growth, financial development, and ecological footprint: Evidence from symmetric and asymmetric ARDL. Ecological Indicators, 121, 107060. https://doi.org/10.1016/j.ecolind.2020.107060
-Gu, D., Andreev, K., & E. Dupre, M. (2021). Major Trends in Population Growth Around the World. China CDC Weekly, 3(28), 604–613. https://doi.org/10.46234/ccdcw2021.160
-Hopenhayn, H., Neira, J., & Singhania, R. (2022). From Population Growth to Firm Demographics: Implications for Concentration, Entrepreneurship and the Labor Share. Econometrica, 90(4), 1879–1914. https://doi.org/10.3982/ecta18012
-Nabin Kumar Chaudhary, Giri, J., Rajesh Gyawali, & Prabhat Ranjan Pokharel. (2024). Pharyngeal width comparison in different skeletal malocclusions and growth patterns of Nepalese population. Journal of Oral Research and Review, 16(2), 103–110. https://doi.org/10.4103/jorr.jorr_63_23
-Poo, S., Bogisich, A., Mack, M., Lynn, B. K., & Devan‐Song, A. (2021). Post‐release comparisons of amphibian growth reveal challenges with sperm cryopreservation as a conservation tool. Conservation Science and Practice, 4(1). https://doi.org/10.1111/csp2.572
-Lutz, W., & KC, S. (2010). Dimensions of global population projections: what do we know about future population trends and structures? Philosophical Transactions of the Royal Society B: Biological Sciences, 365(1554), 2779–2791. https://doi.org/10.1098/rstb.2010.0133
-Ezeh, A. C., Bongaarts, J., & Mberu, B. (2012). Global population trends and policy options. The Lancet, 380(9837), 142–148. https://doi.org/10.1016/s0140-6736(12)60696-5
-Buettner, T. (2022). Population Projections and Population Policies. International Handbook of Population Policies, 467–484. https://doi.org/10.1007/978-3-031-02040-7_21
+
+## References
+
+1.  Falcon, W. P., Naylor, R. L., & Shankar, N. D. (2022). Rethinking Global Food Demand for 2050. Population and Development Review, 48(4). https://doi.org/10.1111/padr.12508
+2.  Wellmann, T., Schug, F., Haase, D., Pflugmacher, D., & van der Linden, S. (2020). Green growth? On the relation between population density, land use and vegetation cover fractions in a city using a 30-years Landsat time series. Landscape and Urban Planning, 202, 103857. https://doi.org/10.1016/j.landurbplan.2020.103857
+3.  Hanberry, B. B. (2022). Global population densities, climate change, and the maximum monthly temperature threshold as a potential tipping point for high urban densities. Ecological Indicators, 135, 108512. https://doi.org/10.1016/j.ecolind.2021.108512
+4.  Chen, J., Wang, B., Huang, S., & Song, M. (2020). The influence of increased population density in China on air pollution. Science of the Total Environment, 735, 139456. https://doi.org/10.1016/j.scitotenv.2020.139456
+5.  Hanberry, B. B. (2022). Imposing consistent global definitions of urban populations with gridded population density models: Irreconcilable differences at the national scale. Landscape and Urban Planning, 226, 104493. https://doi.org/10.1016/j.landurbplan.2022.104493
+6.  Carozzi, F., Provenzano, S., & Roth, S. (2020). Urban density and Covid-19 - LSE Research Online. Lse.ac.uk. http://eprints.lse.ac.uk/108484/1/dp1711.pdf
+7.  Sénit, C.-A. (2019). Leaving no one behind? The influence of civil society participation on the Sustainable Development Goals. Environment and Planning C: Politics and Space, 38(4), 239965441988433. https://doi.org/10.1177/2399654419884330
+8.  Thew, H., Middlemiss, L., & Paavola, J. (2020). “Youth is not a political position”: Exploring justice claims-making in the UN Climate Change Negotiations. Global Environmental Change, 61, 102036. https://doi.org/10.1016/j.gloenvcha.2020.102036
+9.  McMellon, C., & Tisdall, E. K. M. (2020). Children and Young People’s Participation Rights: Looking Backwards and Moving Forwards. The International Journal of Children’s Rights, 28(1), 157–182. https://doi.org/10.1163/15718182-02801002
+10. Gleave, M. B., & White, H. P. (2023). Population density and agricultural systems in West Africa. Environment and Land Use in Africa, 273–300. https://doi.org/10.4324/9781003383925-12
+11. Rahman, M. M., Saidi, K., & Mbarek, M. B. (2020). Economic growth in South Asia: the role of CO2 emissions, population density and trade openness. Heliyon, 6(5), e03903. https://doi.org/10.1016/j.heliyon.2020.e03903
+12. Ahmed, Z., Zhang, B., & Cary, M. (2021). Linking economic globalization, economic growth, financial development, and ecological footprint: Evidence from symmetric and asymmetric ARDL. Ecological Indicators, 121, 107060. https://doi.org/10.1016/j.ecolind.2020.107060
+13. Gu, D., Andreev, K., & E. Dupre, M. (2021). Major Trends in Population Growth Around the World. China CDC Weekly, 3(28), 604–613. https://doi.org/10.46234/ccdcw2021.160
+14. Hopenhayn, H., Neira, J., & Singhania, R. (2022). From Population Growth to Firm Demographics: Implications for Concentration, Entrepreneurship and the Labor Share. Econometrica, 90(4), 1879–1914. https://doi.org/10.3982/ecta18012
+15. Nabin Kumar Chaudhary, Giri, J., Rajesh Gyawali, & Prabhat Ranjan Pokharel. (2024). Pharyngeal width comparison in different skeletal malocclusions and growth patterns of Nepalese population. Journal of Oral Research and Review, 16(2), 103–110. https://doi.org/10.4103/jorr.jorr_63_23
+16. Poo, S., Bogisich, A., Mack, M., Lynn, B. K., & Devan‐Song, A. (2021). Post‐release comparisons of amphibian growth reveal challenges with sperm cryopreservation as a conservation tool. Conservation Science and Practice, 4(1). https://doi.org/10.1111/csp2.572
+17. Lutz, W., & KC, S. (2010). Dimensions of global population projections: what do we know about future population trends and structures? Philosophical Transactions of the Royal Society B: Biological Sciences, 365(1554), 2779–2791. https://doi.org/10.1098/rstb.2010.0133
+18. Ezeh, A. C., Bongaarts, J., & Mberu, B. (2012). Global population trends and policy options. The Lancet, 380(9837), 142–148. https://doi.org/10.1016/s0140-6736(12)60696-5
+19. Buettner, T. (2022). Population Projections and Population Policies. International Handbook of Population Policies, 467–484. https://doi.org/10.1007/978-3-031-02040-7_21
