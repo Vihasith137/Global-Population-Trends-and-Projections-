@@ -188,9 +188,9 @@ The dataset 2024Populations.csv (31.12 kB) Link:- https://www.kaggle.com/code/fa
 was acquired and painstakingly cleaned (using the Power Query editor Power BI features) in the data preprocessing stage.
  
 
-Figure 1 Data import and preprocessing
+
 <p align="center">
-  <img src="path/to/your/image.png" alt="Alt text describing the image">
+  <img src="Picture1.png" alt="Figure 1 Data import and preprocessing">
 </p>
 Error detection and removal on the first step were made to make sure the dataset was alright, and the first row was then made to be the header which labels each column correctly. Subsequently, data types were changed such that those meet their respective columns’ content; this improved data consistency and better verified numerical readings for analytical calculations. 
  
