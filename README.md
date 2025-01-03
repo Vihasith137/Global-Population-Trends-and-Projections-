@@ -31,41 +31,43 @@ This section can be expanded to include:
 * **Future Work:**  Suggest potential future research or extensions of the project.
 
 ## Contents
-1 Introduction	5
-1.1 Background	6
-1.2 Problem Statement	7
-1.3 Importance of the Study	10
-1.4 Research Questions	11
-1.4 Aim and Objectives	11
-1.5 Methodology Approach	12
-2 Literature Review	14
-2.1 Population density and changes over time	14
-2.2 Participation and Membership in the UN	16
-2.3 Population density comparison and Growth comparison	17
-2.4 Some considerations for policy makers	18
-3 Methodology	20
-3.1 Dataset Acquisition	20
-3.2 Data Preprocessing	20
-3.3 Data Visualization	22
-4 Results and Discussion	26
-4.1 Discussion	28
-5 Recommendations, Conclusion, Limitations and Future work.	31
-References	35
+1.  [Introduction](#1-introduction)
+    *   [Background](#11-background)
+    *   [Problem Statement](#12-problem-statement)
+    *   [Importance of the Study](#13-importance-of-the-study)
+    *   [Research Questions](#14-research-questions)
+    *   [Aim and Objectives](#14-aim-and-objectives)
+    *   [Methodology Approach](#15-methodology-approach)
+2.  [Literature Review](#2-literature-review)
+    *   [Population density and changes over time](#21-population-density-and-changes-over-time)
+    *   [Participation and Membership in the UN](#22-participation-and-membership-in-the-un)
+    *   [Population density comparison and Growth comparison](#23-population-density-comparison-and-growth-comparison)
+    *   [Some considerations for policy makers](#24-some-considerations-for-policy-makers)
+3.  [Methodology](#3-methodology)
+    *   [Dataset Acquisition](#31-dataset-acquisition)
+    *   [Data Preprocessing](#32-data-preprocessing)
+    *   [Data Visualization](#33-data-visualization)
+4.  [Results and Discussion](#4-results-and-discussion)
+    *   [Discussion](#41-discussion)
+5.  [Recommendations, Conclusion, Limitations and Future work](#5-recommendations-conclusion-limitations-and-future-work)
+6.  [References](#references)
 
 
  
-Table of figures
-Figure 1 Data import and preprocessing	21
-Figure 2 Changing Data type	21
-Figure 3 Removing duplicates	22
-Figure 4 Population classification using bar chart and map	23
-Figure 5 bar charts showing country wise growth	24
-Figure 6 Bubble map showing population density	25
-Figure 7 Worldwide population overview	26
-Figure 8 YOY Growth rate and change	27
-Figure 9 Population density by country	28
+## Table of Figures
+
+*   [Figure 1: Data import and preprocessing](#figure-1-data-import-and-preprocessing)
+*   [Figure 2: Changing Data type](#figure-2-changing-data-type)
+*   [Figure 3: Removing duplicates](#figure-3-removing-duplicates)
+*   [Figure 4: Population classification using bar chart and map](#figure-4-population-classification-using-bar-chart-and-map)
+*   [Figure 5: Bar charts showing country wise growth](#figure-5-bar-charts-showing-country-wise-growth)
+*   [Figure 6: Bubble map showing population density](#figure-6-bubble-map-showing-population-density)
+*   [Figure 7: Worldwide population overview](#figure-7-worldwide-population-overview)
+*   [Figure 8: YOY Growth rate and change](#figure-8-yoy-growth-rate-and-change)
+*   [Figure 9: Population density by country](#figure-9-population-density-by-country)
+
  
-# 1 Introduction
+## 1 Introduction
 The global population is rapidly changing in ways that have never experienced before and these changes have far reaching consequences for societies, economies and the environment. Population estimation from around 4.4 billion in 1980 to more than 7 billion in 2011 shows the recent rapid growth of people all over the world according tohan Buettner (2022). Population is expected to grow between 8 to 10 billion by the year 2050 according to estimates of Lutz and KC (2010). These figures provide not only the rate of the population increase but also the gap of that rate between the two areas of the world – the developed and the developing countries. However, many DCs are experiencing a teen birth rate and an improvement in mortality rates leading to soaring populations compared to that of several developed nation states which either have slowed or are experiencing actually negative population growth rates because of dwindling TFRs, aging populations, and outward migration.
 This is an important research especially when the world is facing urgent issues concerning population, space and development. These issues are of specific concern to the UN which has called for policies to be guided by sufficient demographic information. The characteristics within the population growth are greatly contributed by the factors such as economic development, the provision of education and health, availability of resources, and many others; the experiences may vary with the member countries of the United Nations and the other member states. In these aspects, it is important to unravel these differences in order to be in a position to formulate good policies that can suit every country.
 However, one will agree that UN membership contributes a great deal to social demographics. This means that belonging to certain international organizations including the UN can afford the resources, assistance, and partnerships to addresses demographic factors. This study will, therefore, seek to establish the effect of membership status on population growth rates and densities with a view of getting an understanding of other related implications of international cooperation for population development (Falcon et al., 2022).
@@ -102,7 +104,7 @@ To investigate the variations in population density and growth rate trends among
 1.5 Methodology Approach
 The present study utilizes an extensive approach of power BI that is to analyze and accumulate international populace estimates and PBI data base includes the basic data extracted from Kaggle data set that includes rank, country, TwoLetterID, FIFA code, UN status, population of year 1980, 2000, 2010, 2023, 2024, 2030 and 2050. Other columns consist of land area, population change, rate of growth, and world percentage, and density for the year 2024. After data extraction, the dataset, will be transferred to Power BI, where a detailed data cleaning process will be performed in the Query Editor in order to eliminate any data errors. For detailed analysis, DAX, Data Analysis Expressions, will be used for defining measures and calculating fields such as growth rates and changes between the years. The final deliverable of this methodology will be the construction of an online tool in the form of an interactive dashboard with bar graphs, line graphs, heat maps to capture the population trends over the years, to differentiate between member and non-member states of the UN and the future population projection. Besides, this approach makes improvements in the capability of the user for visualizing population data as well as results for global population trends and forecasts.
  
-# 2 Literature Review
+## 2 Literature Review
 There is nothing as fundamental as understanding the dynamics of population trends and projections around the world today to in conquering the calamities that come with demographic revolutions in the 21st century (Falcon et al., 2022). This paper presents a review of the studies that address population dynamics; duration of analysis is between 1980 and 2050; considerations have been given to socio-economic factors, international cooperation and effects of United Nations membership on growth and density of populations.
 2.1 Population density and changes over time
 Global population has increased dramatically since early and mid twentieth century from about 1.6 billion in1900 to over 7 billion in 2011. This growth has therefore been marked by different levels of growth across different regions primarily due to disparities in growth in fertility, mortality and migration rates. Latter half of the twentieth century most of the developing country experiences a demographic transition where the mortality rate of the population was reduced due to better health, quality of water supply and food habits but the birth rate remained high. This phenomenon created a record population growth especially in third world country such as those in sub Saharan Africa and part of Asia where sociopolitical factors such as family planning and education had catalyzed high birth rates (Wellmann et al., 2020).
