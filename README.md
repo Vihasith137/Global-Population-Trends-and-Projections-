@@ -1,0 +1,2 @@
+# Global Population Trends and Projections 
+ Global population statistics and projections for the year 2024 is selected along with demographic transition of nations worldwide. The subject of the analysis is population dynamics, with special attention paid to the main indicators of population density growth and their relationship with economic factors. The research made use of data from a wide dataset and used Power Bi to visualize it and encourage interactive exploration of the population metrics
